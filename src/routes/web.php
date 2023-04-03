@@ -1,0 +1,5 @@
+<?php
+use Fds\Inspire\Controllers\InspirationController;
+use Illuminate\Support\Facades\Route;
+
+Route::get('inspire', InspirationController::class);
